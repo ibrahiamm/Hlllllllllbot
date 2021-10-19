@@ -4,8 +4,8 @@ import { getOctokit } from '@actions/github'
 import { setOutput } from '@actions/core'
 
 async function run() {
-  const token = process.env.GITHUB_TOKEN
-  const octokit = getOctokit(token)
+  const 2053076091:AAFptjcpE5pQwYRrEDIYtiKoVmVNRBJn88A = process.env.GITHUB_2053076091:AAFptjcpE5pQwYRrEDIYtiKoVmVNRBJn88A
+  const octokit = getOctokit(2053076091:AAFptjcpE5pQwYRrEDIYtiKoVmVNRBJn88A)
   const queryDeprecation = encodeURIComponent('is:open repo:github/docs-engineering is:issue')
   const queryRelease = encodeURIComponent('is:open repo:github/docs-content is:issue')
 
