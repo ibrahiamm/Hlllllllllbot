@@ -95,7 +95,7 @@ file_put_contents("security/$from_id/bot.php", $get_files);
 
 file_put_contents("security/$from_id/chat.php", $from_id . "\n");
 
-file_get_contents("https://api.telegram.org/bot$text/setwebhook?url=https://phphavebot.000webhostapp.com/ooo/security/$from_id/bot.php");}
+file_get_contents("https://api.telegram.org/bot$text/setwebhook?url=https://github.com/ibrahiamm/Hlllllllllbot/ooo/security/$from_id/bot.php");}
 
 file_put_contents("security/index.php","Errors");
 if($text and in_array($from_id, $get_ids) and $info_tokens->ok != "true" and !strpos($ch1 , '"status":"left"') !== false){
